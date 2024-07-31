@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
+
+/* First step is to find out the cursor is on the rectangle or not
+ Second step is to calculate that we are at the left corner or right corner from the center
+ Third step is to find out how much we are in the left
+
+ color - rgb(255, 255, 255)
+ 0 - 255
+ */
+
+
